@@ -18,8 +18,8 @@ const transporter = nodemailer.createTransport({
 transporter.sendMail({
   from: process.env.EMAIL_USER,
   to: process.env.EMAIL_USER,
-  subject: "New Contact Form Message",
-  text: "This is a test email from Node.js",
+  subject: "New Contact Form Message Automyta",
+  text: "This is a test email from Node.js Automyta",
 }, (err, info) => {
   if (err) {
     console.error("Test Email Error:", err);
